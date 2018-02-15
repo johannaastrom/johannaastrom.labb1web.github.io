@@ -1,0 +1,76 @@
+.header{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin:auto;
+    background-color: #00cc99;
+    height: 100px;
+   }
+   .middle {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+   }
+   .middle > div:nth-child(even){
+    flex: 7 7 auto;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+   }
+   .middle > div:nth-child(odd){
+    flex: 1 1 auto;
+    background-color:  #ccccb3;
+    border: 1px solid black;
+   }
+   .footer{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin:auto;
+    background-color: #00cc99;
+    height: 50px;
+   }
+   div {
+     position: relative;
+     border: 1px solid darkgray;
+     padding: 5px;
+     background-color: beige;
+   }
+   .table {
+     position: absolute;
+     bottom: 0;
+     display: table;
+     background-color: grey; }
+   .table > div { display: table-row; }
+   .table > div > div {
+     display: table-cell;
+     background-color: beige; 
+   }
+   #text{
+     position: relative;
+     float: left;
+     bottom: 0; 
+   }
+   #imgPanda{
+    float:left;
+    width: 140px;
+    height: 200px;
+   }
+   #imgPomsky{
+    float: left;
+    margin: 15px;
+    width: 170px;
+    height: 200px;
+   }
+   #imgPiglet{
+    float: right;
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+   }
+   #imgKitten{
+    float: left;
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+   }
