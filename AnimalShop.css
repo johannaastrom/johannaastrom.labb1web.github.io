@@ -1,19 +1,25 @@
 .header{
-    margin:auto;
-    background-color: #00cc99;
-    height: 100px;
+    margin:0;
+    border:0;
+    background: url(https://louisvilleky.gov/sites/default/files/animal_services/animal_services_images/animal-services-header_1.jpg);
+    /*background-color: #00cc99;*/
+    height: 200px;
    }
    .middle {
+    margin:0;
+    border:0;
     display: flex;
     flex-direction: row;
     height: 700px;
    }
    .middle > div:nth-child(even){
+    margin:0;
+    border:0;
     flex: 3 1 auto;
     width: 1px;
     background-color: white;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    /*border-bottom: 1px solid black;
+    border-top: 1px solid black;*/
    }
    .middle > div:nth-child(odd){
     flex: 1 1 auto;
@@ -22,31 +28,40 @@
     border: 1px solid black;
    }
    .footer{
-    margin:auto;
-    background-color: #00cc99;
+    margin:0px;
+    border:0;
+    background-color: white;
     height: 50px;
    }
    div {
      position: relative;
      border: 1px solid #ccccb3;
-     padding: 5px;
+     padding: 1px;
      background-color: white;
+   }
+  #div2 {
+      position: relative;
+      background-color: #ccccb3;
    }
    .table {
      position: absolute;
      bottom: 0;
      display: table;
      background-color: #ccccb3; }
-   .table > div { display: table-row; }
+   .table > div { 
+     display: table-row; 
+    }
    .table > div > div {
      display: table-cell;
      background-color: beige; 
    }
    #textUpperRight{
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
     position:relative;
     float:left;
-     /*float: top;
-     top: 0;*/
+    background-color: #ccccb3;
    }
    #textBottomRight ul{
      margin: 0;
@@ -55,30 +70,24 @@
      list-style-type: none;
      position:relative;
      float:left;
-     /*float: bottom;
-     bottom: 0; */
    }
    #imgPanda{
     width: 140px;
     position: relative;
     float:left;
-
    }
    #imgPomsky{
     float: left;
-    /*margin: 15px;*/
     width: 270px;
     height: 250px;
    }
    #imgPiglet{
     float: left;
-    /*margin: 15px;*/
     width: 300px;
     height: 250px;
    }
    #imgKitten{
     float: left;
-    /*margin: 15px;*/
-    width: 300px;
+    width: 310px;
     height: 250px;
    }
