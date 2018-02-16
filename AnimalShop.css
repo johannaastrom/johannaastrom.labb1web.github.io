@@ -1,7 +1,4 @@
 .header{
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     margin:auto;
     background-color: #00cc99;
     height: 100px;
@@ -12,65 +9,76 @@
     height: 700px;
    }
    .middle > div:nth-child(even){
-    flex: 7 7 auto;
+    flex: 3 1 auto;
+    width: 1px;
     background-color: white;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
    }
    .middle > div:nth-child(odd){
     flex: 1 1 auto;
+    width: 1px;
     background-color:  #ccccb3;
     border: 1px solid black;
    }
    .footer{
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     margin:auto;
     background-color: #00cc99;
     height: 50px;
    }
    div {
      position: relative;
-     border: 1px solid darkgray;
+     border: 1px solid #ccccb3;
      padding: 5px;
-     background-color: beige;
+     background-color: white;
    }
    .table {
      position: absolute;
      bottom: 0;
      display: table;
-     background-color: grey; }
+     background-color: #ccccb3; }
    .table > div { display: table-row; }
    .table > div > div {
      display: table-cell;
      background-color: beige; 
    }
-   #text{
-     position: relative;
-     float: left;
-     bottom: 0; 
+   #textUpperRight{
+    position:relative;
+    float:left;
+     /*float: top;
+     top: 0;*/
+   }
+   #textBottomRight ul{
+     margin: 0;
+     margin-top: 50px;
+     padding: 0;
+     list-style-type: none;
+     position:relative;
+     float:left;
+     /*float: bottom;
+     bottom: 0; */
    }
    #imgPanda{
-    float:left;
     width: 140px;
-    height: 200px;
+    position: relative;
+    float:left;
+
    }
    #imgPomsky{
     float: left;
-    margin: 15px;
-    width: 170px;
-    height: 200px;
+    /*margin: 15px;*/
+    width: 270px;
+    height: 250px;
    }
    #imgPiglet{
-    float: right;
-    margin: 15px;
-    width: 250px;
-    height: 200px;
+    float: left;
+    /*margin: 15px;*/
+    width: 300px;
+    height: 250px;
    }
    #imgKitten{
     float: left;
-    margin: 15px;
-    width: 250px;
-    height: 200px;
+    /*margin: 15px;*/
+    width: 300px;
+    height: 250px;
    }
