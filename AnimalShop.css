@@ -38,7 +38,7 @@ ul {
     width: 200px;
     display: inline-block;
     position: relative;
-    left: 30px;
+    left: 20px;
 }
 li a {
   display: inline-block;
@@ -114,11 +114,12 @@ li a {
    }
    #textBottomRight ul{
      margin: 0;
-     margin-top: 50px;
+     margin-top: 130px;
      padding: 0;
      list-style-type: none;
-     position:relative;
-     float:left;
+     position:absolute;
+         float:left;
+         left: 140px;
    }
    #imgPanda{
     border-radius: 25px;
